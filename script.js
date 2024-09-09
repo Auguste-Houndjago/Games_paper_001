@@ -1,14 +1,14 @@
 let score=0;
 const opts = {
-	Rock: {
+	R: {
 		icon:"✊",
 		winner: "Scissors"
 	},
-	Paper: {
+	P: {
 	icon:"✋",
 	winner: "Rock"	
 },
-	Scissors: {
+	S: {
 		icon:"✌️",
 		winner: "Paper"
 	},

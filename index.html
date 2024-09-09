@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="/socket.io/socket.io.js" defer></script>
     <link rel="manifest" href="/manifest.json">
 </head>
 <body>
@@ -19,7 +20,9 @@
 		<div class="curr">🎮</div>
 		</div>
 		<div id="choiceBtns">
-			<button onclick="anim(this.innerText)">Rock</button><button onclick="anim(this.innerText)">Paper</button><button onclick="anim(this.innerText)">Scissors</button>
+			<button onclick="anim(this.innerText)">R</button>
+			<button onclick="anim(this.innerText)">P</button>
+			<button onclick="anim(this.innerText)">S</button>
 		</div>
 	</div>
 	<div id="cpu">		
