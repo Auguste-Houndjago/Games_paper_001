@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GIGI-Game</title>
+	<link rel="icon" type="image/x-icon" href="icon_sm.ico">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="/socket.io/socket.io.js" defer></script>
     <link rel="manifest" href="/manifest.json">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3BWP9H2VGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3BWP9H2VGC');
+</script>
 <body>
 
 <div id="scoreDisplay">Your current win streak: <span id="score">0</span></div>
