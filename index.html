@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div id="scoreDisplay">Your current win streak: <span id="score">0</span></div>
+
+<div id="displayArea">
+	<div id="user">
+		<h2>you</h2>
+		<div class="rpsanim">
+		<div class="curr">✊</div>
+		</div>
+		<div id="choiceBtns">
+			<button onclick="anim(this.innerText)">Rock</button><button onclick="anim(this.innerText)">Paper</button><button onclick="anim(this.innerText)">Scissors</button>
+		</div>
+	</div>
+	<div id="cpu">		
+		<h2>cpu</h2>
+		<div class="rpsanim">
+		<div class="curr">✊</div>
+			</div>
+	</div>
+</div>
+<div id="feedback">choose your weapon!</div>
+</body>
+</html>
