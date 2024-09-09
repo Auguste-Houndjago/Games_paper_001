@@ -41,10 +41,19 @@ body {
 	font-size:14px;
 	margin: 0;
 font-family: monospace;
-	background: conic-gradient( 
+	/* background: conic-gradient( 
      #cbff4e 26deg, #b95fff 26.5deg 150deg, 
-     #ff8fd1 150.5deg 269.85deg, #87e977 270deg 299.5deg, #9bdbff 300deg);
+     #ff8fd1 150.5deg 269.85deg, #87e977 270deg 299.5deg, #9bdbff 300deg); */
 	height:100vh;
+
+    width: 100%;
+    background: repeating-linear-gradient(
+        45deg,
+        #e5e5f7,
+        #e5e5f7 10px,
+        #444cf7 10px,
+        #444cf7 20px
+        );
 }
 
 #displayArea {
@@ -68,6 +77,10 @@ font-family: monospace;
 		.curr {
 			transform: rotate(-90deg) translateX(-50%);
 		}
+        h2{
+            
+            margin-left: 15px;
+        }
 	}
 	#user,
 	#cpu {
